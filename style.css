@@ -160,9 +160,14 @@ body{
 
     .box-profile{
         flex-direction: column;
-        justify-content: space-between;
-        margin-top: -5rem;
-        height: 17rem;
+        justify-content: space-around;
+        height: 13rem;
+    }
+
+    .img-profile{
+        margin-top: -116px;
+        width: 164px;
+        border-radius: 100px;
     }
 
     .box-personal-information{
