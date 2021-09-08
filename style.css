@@ -69,6 +69,9 @@ body{
     width: 90px;
     background: #242121;
 }
+.box-Toedit:hover{
+    box-shadow: 0px 0px 10px 1px #B7B7B7;
+}
 
 .icon{
     width: 20px;
@@ -97,6 +100,10 @@ body{
     border-radius: 8px;
     cursor: pointer;
     background: #046313;
+    transition: 0.5s all;
+}
+.box-projects:hover{
+    transform: scale(1.1);
 }
 
 .container-projects{
@@ -114,6 +121,10 @@ body{
     border-radius: 8px;
     cursor: pointer;
     background: #044A7D;
+    transition: 0.5s all;
+}
+.box-stars:hover{
+    transform: scale(1.1);
 }
 
 .container-stars{
@@ -131,6 +142,10 @@ body{
     border-radius: 8px;
     cursor: pointer;
     background: #725200;
+    transition: 0.5s all;
+}
+.box-followers:hover{
+    transform: scale(1.1);
 }
 
 .container-followers{
