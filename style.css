@@ -20,7 +20,7 @@ body{
     align-items: center;
     position: relative;
     width: 70%;
-    height: 18rem;
+    height: 400px;
     background: #0F0E0E;
 }
 
@@ -40,17 +40,44 @@ body{
 }
 
 .img-profile{
-    width: 15%;
+    width: 164px;
     border-radius: 100px;
 }
 
 .box-personal-information{
     margin: 0 3%;
+    color:  #B7B7B7;
+}
+
+.name{
+    font-size: 2rem;
+}
+
+.user{
+    color: #B7B7B7;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .box-Toedit{
-    width: 10%;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
     background: #242121;
+}
+
+.icon{
+    width: 20px;
+}
+
+.paragraph-Toedit{
+    font-weight: bold;
+    margin: 0 10%;
+    color: #B7B7B7;
 }
 
 .box-information{
@@ -68,10 +95,12 @@ body{
     width: 30%;
     height: 5rem;
     border-radius: 8px;
+    cursor: pointer;
     background: #046313;
 }
 
 .container-projects{
+    color:  #B7B7B7;
     margin: 0 5%;
     width: 40%;
 }
@@ -83,10 +112,12 @@ body{
     width: 30%;
     height: 5rem;
     border-radius: 8px;
+    cursor: pointer;
     background: #044A7D;
 }
 
 .container-stars{
+    color:  #B7B7B7;
     margin: 0 5%;
     width: 40%;
 }
@@ -98,10 +129,53 @@ body{
     width: 30%;
     height: 5rem;
     border-radius: 8px;
+    cursor: pointer;
     background: #725200;
 }
 
 .container-followers{
+    color:  #B7B7B7;
     margin: 0 5%;
     width: 50%;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+}
+
+.number{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 722px) {
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+   
+    .group{
+        flex-direction: column;
+    }
+
+    .box-profile{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -80px;
+        height: 271px;
+    }
+
+    .box-personal-information{
+        text-align: center;
+    }
+
+    .box-information{
+        margin: 36px;
+        flex-direction: column;
+        height: 17rem;
+    }
+
+    .box-projects, .box-stars, .box-followers{
+        width: 100%;
+    }
 }
