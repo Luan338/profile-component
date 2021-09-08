@@ -161,8 +161,8 @@ body{
     .box-profile{
         flex-direction: column;
         justify-content: space-between;
-        margin-top: -80px;
-        height: 271px;
+        margin-top: -5rem;
+        height: 17rem;
     }
 
     .box-personal-information{
